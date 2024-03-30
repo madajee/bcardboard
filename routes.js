@@ -7,6 +7,10 @@ app.config(function ($routeProvider) {
         templateUrl: 'pages/home.html',
         controller: 'bcardboardController'
     })
+    .when('/admin/add-product', {
+        templateUrl: 'pages/admin/add-product.html',
+        controller: 'bcardboardController'
+    })
     .
     otherwise('/');
     
